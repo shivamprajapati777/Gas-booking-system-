@@ -1,0 +1,35 @@
+.feedback-base{
+    height: 95vh;
+    width: 100vw;
+    background-image: url("https://venngage-wordpress.s3.amazonaws.com/uploads/2018/09/Colorful-Circle-Simple-Background-Image-1.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+
+.feedback-main {
+    background-color: rgba(223, 233, 232, 0.325);
+    height: 300px;
+    width: 30%;
+    border-radius: 5px;
+    position: relative;
+    top: 20%;
+    left: 30%;
+    padding: 20px;
+    text-align: center;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+
+}
+
+.feedback-main input{
+    padding:10px;
+    margin: 10px;
+    background-color: blueviolet;
+   
+}
+.feedback-main[type=text],input[type=placeholder]{
+    color: white;
+
+}

@@ -1,0 +1,14 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.Userhome-base{
+    background-image: url("https://venngage-wordpress.s3.amazonaws.com/uploads/2018/09/Simple-Purple-Checked-Background-Image.jpg");
+    height: 93vh;
+    width: 100vw;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+

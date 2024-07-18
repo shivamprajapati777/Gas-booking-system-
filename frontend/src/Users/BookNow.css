@@ -1,0 +1,60 @@
+.book-base{
+    background-image: url(https://png.pngtree.com/thumb_back/fh260/background/20230701/pngtree-d-rendering-of-industrial-stream-metal-plastic-and-cylinder-pipes-for-image_3736327.jpg);
+    background-size: 100% 100%; 
+    padding: 80px 40px;
+    
+}
+
+.book-heading{
+    text-align: center;
+    color: rgba(9, 9, 9, 0.996);
+    font-size: 35px;
+    font-weight: bold;
+    margin-bottom:10px;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    text-decoration: underline;
+    opacity: .9;
+}
+
+.book-main{
+    height: 66vh;
+    width: 35%;
+    margin: 20px 10px;
+    padding: 20px;
+    background: rgba(222, 220, 220, 0.298);
+    text-align: center;
+    border-radius: 10px;
+}
+
+.book-main input{
+    display: block;
+    margin: auto;
+    width: 75%;
+    padding: 5px 10px;
+    font-size: 20px;
+    margin-top: 7px;
+    border-radius: 4px;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.book-main select{
+    display: block;
+    margin: auto;
+    width: 75%;
+    padding: 5px 10px;
+    font-size: 20px;
+    margin-top: 7px;
+    border-radius: 4px;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.book-main button{
+    margin-top: 15px;
+    font-weight: bold;
+    padding: 5px 20px;
+    border: 0;
+    border-radius: 5px;
+    box-shadow: 0 0 5px 4px gray;
+    background:linear-gradient(brown, yellow);
+    cursor: pointer;
+}

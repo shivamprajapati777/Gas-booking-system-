@@ -1,0 +1,74 @@
+*{
+    margin: 0;
+    padding: 0;
+}  
+.adminlogin-base img{
+    position:absolute;
+    top:10%;
+   height: 90vh;
+    width: 100vw;
+    background-position: center;
+    background-size: cover;
+    
+}
+.adminlogin-main{
+    top:30%;
+    left:60%;
+   position:absolute;
+   background:linear-gradient(to right,rgba(255, 255, 255, 0.482),rgba(0, 0, 0, 0.477),rgba(0, 0, 255, 0.518));
+   border-radius: 20px;
+   padding:10px 50px;
+   height: 300px;
+   width:400px;
+   margin: 20px;
+   
+}
+.adminlogin-input{
+    display: flex;
+    padding: 10px 0;
+    margin: 30px 30px;
+    border-radius: 10px;
+    color: white;
+    
+}
+.adminlogin-input[type="text"],input[type="password"]
+{
+    
+   outline: none;
+    border:none;
+    border-bottom:4px solid #fb2525;
+    background: transparent;
+    height: 40px;
+    color: black;
+    font-size: 15px;
+   
+}
+.adminlogin-button{
+    border:none;
+    outline: none;
+    height: 35px;
+    width:50%;
+    color:aliceblue;
+    background: #fb2525;
+    border-radius: 5px;
+   font-size: 18px;
+   padding: 0 10px;
+   cursor: pointer;
+   transition: .5s all ease;
+   margin:10px 0 0 50px;
+   
+   
+}
+.adminlogin-button:hover{
+    background-color: cadetblue;
+
+}
+.adminlogin-input::placeholder{
+    color: aliceblue;
+    font-weight: 600;
+    font-size: 15px;
+}
+
+
+
+
